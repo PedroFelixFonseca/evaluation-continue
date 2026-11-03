@@ -1,0 +1,30 @@
+.button {
+    display: inline-flex;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.button.primary {
+    background-color: #000;
+    color: white;
+    border: none;
+}
+.button.primary:hover {
+    background-color: #343434;
+}
+.button.primary:disabled {
+    background-color: #BBB;
+}
+
+.button.secondary {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+.button.secondary:hover {
+    background-color: #B4BBC0;
+}
+.button.secondary:disabled {
+    background-color: #ECEEEF;
+}
